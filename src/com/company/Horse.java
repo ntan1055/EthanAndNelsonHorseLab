@@ -4,5 +4,5 @@ public interface Horse
 {
     String getName();
     int getWeight();
-    int getSpaces();
+    String toString();
 }
