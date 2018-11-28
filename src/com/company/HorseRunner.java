@@ -1,9 +1,8 @@
 package com.company;
 
-public class HorseRunner {
+public class Main {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 	// write your code here
         Horse horse1 = new Mustang("Secretariat", 12000);
         Horse horse2 = new Mustang("Dusty Trail", 22000);
@@ -23,7 +22,5 @@ public class HorseRunner {
 
         System.out.println(barn);
         System.out.println(" Dusty Trail is now in space: " + barn.findHorseSpace("Dusty Trail"));
-
-
     }
 }
